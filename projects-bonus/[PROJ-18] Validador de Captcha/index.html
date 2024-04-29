@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Captcha Check | MF</title>
+</head>
+
+<body>
+
+    <div id="captcha-container">
+        <img src="bg.png">
+        <div class="captcha">
+            <canvas id="captcha" width="200" height="40"></canvas>
+            <button id="reload-captcha">Gerar</button>
+        </div>
+        <div class="user">
+            <input type="text" id="captcha-input" placeholder="Digite o CAPTCHA">
+            <button id="check-captcha">Validar</button>
+        </div>
+        <p id="captcha-status">Status : Inativo</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
